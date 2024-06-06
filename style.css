@@ -1,0 +1,93 @@
+body {
+  background-image: url("https://i.pinimg.com/736x/c7/f8/ea/c7f8ea7f3e64eaada10ab161f7da06af.jpg");
+  background-image: url("/jungletrees.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ddd;
+  font-family: Times;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+button {
+  color: #ddd;
+  font-family: Times;
+  font-size: 15px;
+}
+
+.defaultstyle {
+  margin: 50px auto 50px auto;
+  padding: 9px 20px 9px 20px;
+  opacity: 0.9;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #353B34;
+}
+
+.infobutton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 9px 20px 9px 20px;
+  opacity: 0.9;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #353B34;
+  background-color: #414A3F
+}
+
+.infobox {
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  padding: 9px 20px 9px 20px;
+  opacity: 0.9;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #353B34;
+  background-color: #414A3F;
+  display: none;
+  font-size: 15px;
+  max-width: 13%;
+}
+
+.linkbox{
+  display: inline-block;
+  vertical-align: top;
+  width: 448px;
+}
+
+table {
+  border-spacing: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #353B34;
+}
+
+a {
+  color: #ddd
+}
+
+.emptylink {
+  color: #b3b3b3
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4b5449;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7b8479;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333b32;
+}
